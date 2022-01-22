@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+  body{
+    background-color: darkslategrey;
+      background-image: url("data:image/jpeg;base64,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 ");
+      background:linear-gradient(to top,rgba(0,0,0,0.6)100%,rgba(0,0,0,0.6)100%),
+      url("https://wallpaperaccess.com/full/682419.jpg ");
+      background-repeat: no-repeat;
+      background-attachment:fixed;
+      background-position: center;
+       background-size: cover;
+
+  }
+  p{
+       color: white;
+  }
+#name{
+  color: aliceblue;
+  margin-top: 50px;
+  font-size: 40px;
+  border-color: #ff7200
+}
+
+
+</style>
+<h1 align="center" id="name" >GOKARAM KURUMURTHY</h1>
+
+<div>
+     <p id="one">color for this paragraph</p>
+     <p id="two">color for this paragraph</p>
+     <p id="three">color for this paragraph</p>
+     <p id="four">color for this paragraph</p>
+</div>
+<div>
+     <p id="one">color for this paragraph</p>
+     <p id="two">color for this paragraph</p>
+     <p id="three">color for this paragraph</p>
+     <p id="four">color for this paragraph</p>
+</div>
+<div>
+     <p id="one">color for this paragraph</p>
+     <p id="two">color for this paragraph</p>
+     <p id="three">color for this paragraph</p>
+     <p id="four">color for this paragraph</p>
+</div>
+<div>
+     <p id="one">color for this paragraph</p>
+     <p id="two">color for this paragraph</p>
+     <p id="three">color for this paragraph</p>
+     <p id="four">color for this paragraph</p>
+</div>
+<div>
+     <p id="one">color for this paragraph</p>
+     <p id="two">color for this paragraph</p>
+     <p id="three">color for this paragraph</p>
+     <p id="four">color for this paragraph</p>
+</div>
+
+<div>
+     <p id="one">color for this paragraph</p>
+     <p id="two">color for this paragraph</p>
+     <p id="three">color for this paragraph</p>
+     <p id="four">color for this paragraph</p>
+</div>
+<div>
+     <p id="one">color for this paragraph</p>
+     <p id="two">color for this paragraph</p>
+     <p id="three">color for this paragraph</p>
+     <p id="four">color for this paragraph</p>
+</div>
+<div>
+     <p id="one">color for this paragraph</p>
+     <p id="two">color for this paragraph</p>
+     <p id="three">color for this paragraph</p>
+     <p id="four">color for this paragraph</p>
+</div>
+<div>
+     <p id="one">color for this paragraph</p>
+     <p id="two">color for this paragraph</p>
+     <p id="three">color for this paragraph</p>
+     <p id="four">color for this paragraph</p>
+</div>
+<div>
+     <p id="one">color for this paragraph</p>
+     <p id="two">color for this paragraph</p>
+     <p id="three">color for this paragraph</p>
+     <p id="four">color for this paragraph</p>
+</div>
+<div>
+     <p id="one">color for this paragraph</p>
+     <p id="two">color for this paragraph</p>
+     <p id="three">color for this paragraph</p>
+     <p id="four">color for this paragraph</p>
+</div>
+<div>
+     <p id="one">color for this paragraph</p>
+     <p id="two">color for this paragraph</p>
+     <p id="three">color for this paragraph</p>
+     <p id="four">color for this paragraph</p>
+    <div>
+     <p id="one">color for this paragraph</p>
+     <p id="two">color for this paragraph</p>
+     <p id="three">color for this paragraph</p>
+     <p id="four">color for this paragraph</p>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+
+<!--
+BACKGROUND PROPERTIES:
+
+1.background - color  :  (simply a color value)
+2.background - image  :  ((url(""))
+3.background - repeat :  (x- to repeat image horizontally)
+                         (y- to repeat image vertically)
+                         (no-repeat &#45;&#45; it is used not to repeat the image)
+4.background-attachment : fixed and scroll
+5.background-position   : it is going to take two values
+                         1st left right center
+                         2nd top bottom
+
+
+6.backround shorthand : there are two ways
+                        1. giving single value which makes for  width and height
+                        ex: background- size : 100%
+                        2. giving two values,one is for width and for height
+                        ex: background - size : 100% 10% (width and height)
+                        3.background-size:
+                        cover - it covers the full page
+                        4.background-size:
+                        contain- it covers the screen in its original size
+
+
+7.background size-->

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+  <style type="text/css">
+
+  .link{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    margin:0% 10%;
+    padding: 1% 1%;
+  }
+  .link:hover{
+    color: #ff7200;
+  }
+  .nav{
+    background-color: black;
+    padding: 1% 0%;
+  }
+.vanish{
+  border: 1px solid black;
+  display: none;
+  width: 20%;
+  margin-top: 1%;
+  margin-left: 40%;
+}
+.unvanish:hover+.vanish{
+  display: block;
+  border-color: white;
+  color: #ff7200;
+
+}
+
+
+  </style>
+
+</head>
+<body>
+<div class="nav">
+<a class="link" href="#">Home</a>
+<a class="link unvanish" href="">Contact</a>
+  <div class="vanish">
+<p>hello how are you</p>
+  <h1>HEADING TAG</h1>
+</div>
+<a class="link" href="">About</a>
+
+</div>
+
+
+
+</body>
+</html>
